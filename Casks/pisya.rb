@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "pisya" do
-  version "0.4.125"
-  sha256 "4a456a3368c963adbec0402d6e0d035ca674fe3560fd00ae4faa8b276f68320d"
+  version "0.4.133"
+  sha256 "fd66f19639c9bb027605307bd6e175c819afada8a87b1e580a173fc1fdd62e68"
 
   url "https://github.com/docomoz/pisya/releases/download/v#{version}/Pisya-#{version}-arm64.dmg"
   name "Pisya"
