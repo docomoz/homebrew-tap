@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "pisa" do
-  version "0.4.222"
-  sha256 "7ba36c47a286642ee49f3f5ff3eec162a045eac0eaaf7a7ed4edfd8757e10322"
+  version "0.4.227"
+  sha256 "26ff5e3ed1aad127ead324b7be33cd8f130f5bb124c841322020b2e4f209fdf1"
 
   url "https://github.com/docomoz/pisa/releases/download/v#{version}/Pisa-#{version}-arm64.dmg"
   name "Pisa"
@@ -20,7 +20,7 @@ cask "pisa" do
 
   app "Pisa.app"
 
-  uninstall quit: "com.domocoz.pisa"
+  uninstall quit: "com.docomoz.pisa"
 
   caveats <<~EOS
     This build has not been notarized by Apple. Before the first launch, run:
