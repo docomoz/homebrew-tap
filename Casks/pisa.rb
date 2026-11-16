@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "pisa" do
-  version "0.4.281"
-  sha256 "5c8519723cbb62724b24a0c215e328622ac1c1fa3333b8142f84dd982ef5d56e"
+  version "0.4.282"
+  sha256 "1d8fb9c915075e2d564f45c472976a790be6ba0b63d82dc7582df69ea38d286a"
 
   url "https://github.com/docomoz/pisa/releases/download/v#{version}/Pisa-#{version}-arm64.dmg"
   name "Pisa"
