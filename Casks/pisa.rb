@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 cask "pisa" do
-  version "0.4.327"
-  sha256 "536df448f2814f32c16206fe6bdffc6f1491bcdc949526f4e99a6fdffad8f51f"
+  version "0.4.342"
+  sha256 "a31730decad43e77a5cc6144e785e023b38f86910f315d64fdca2a3ad2656921"
 
   url "https://github.com/docomoz/pisa/releases/download/v#{version}/Pisa-#{version}-arm64.dmg"
   name "Pisa"
   desc "Meeting recorder with local transcription"
-  homepage "https://getpisa.app"
+  homepage "https://getpisa.app/"
 
   livecheck do
     url :url
